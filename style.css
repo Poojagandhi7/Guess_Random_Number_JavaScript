@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Mono:ital,wght@1,200&family=Roboto+Slab&family=Roboto:wght@300&family=Signika+Negative:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: blueviolet;
+    flex-direction: center;
+}
+#welcomeScreen img{
+    width: 300px;
+    height: 250px;
+    margin: 10px 10px;
+}
+main{
+    width: 500px;
+    border: 3px solid black;
+    background-color: rgb(176, 243, 233);
+    text-align: center;
+    border-radius: 6px;
+    /* height: 600px; */
+    /* padding: 15px 15px; */
+}
+p{
+    font-size: 17px;
+    font-weight: bold;
+}
+.button-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1px;
+    
+}
+button{
+    margin-bottom: 10px;
+    padding: 15px 25px;
+    background-image: linear-gradient(
+        92.88deg,
+        #2c46a5 9.16%,
+        #5643cc 43.89%,
+        #673fd7 64.72%
+    );
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    text-shadow: rgb(67, 24, 24);
+    text-transform: capitalize;
+}
+button:hover{
+    box-shadow: 5px 5px rgb(81, 75, 75);
+    transition-duration: 0.5s;
+}
+h2{
+    margin-top: 20px;
+}
+
+/* --------------------------- */
+    /* GAme area */
+/* --------------------------- */
+
+#gameArea{
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#guess{
+    font-size: 30px;
+}
+#newGameButton{
+    margin-top: 30px;
+}
+#gameArea{
+    margin-top: 50px;
+}
+  
+input{
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px 15px;
+    margin-top: 25px;
+    border: 2px solid grey;
+    width: 200px;
+}
+.stats{
+    margin-top: 50px;
+}
+.info{
+    margin: 21px 21px;
+    /* text-align: left; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+}
+.info p{
+    font-size: 20px;
+}
+.info span{
+    color: red;
+    font-size: 20px;
+}
